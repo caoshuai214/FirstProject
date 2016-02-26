@@ -1,0 +1,15 @@
+//
+//  LoginLayout.pch
+//  LoginLayout
+//
+//  Created by 曹帅 on 15/12/15.
+//  Copyright © 2015年 北京浩鹏盛世科技有限公司. All rights reserved.
+//
+
+#ifndef LoginLayout_pch
+#define LoginLayout_pch
+#import "Common.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LoginLayout_pch */

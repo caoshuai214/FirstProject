@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张震岳：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8d-za-o21">
+                    <rect key="frame" x="37" y="290" width="68" height="21"/>
+                    <color key="backgroundColor" red="0.99461585283279419" green="0.3417879045009613" blue="0.010320989415049553" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="W0o-vb-xKI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="思念是一种病" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kR-WL-G2y">
+                    <rect key="frame" x="116" y="290" width="102" height="21"/>
+                    <color key="backgroundColor" red="0.33155286312103271" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="152" id="LAX-3A-HLi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人生如戏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kW3-rO-4G9">
+                    <rect key="frame" x="232" y="290" width="68" height="21"/>
+                    <color key="backgroundColor" red="0.062833011150360107" green="0.96511083841323853" blue="0.38579386472702026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Wwr-17-Yu9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="呵呵哒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dG3-BM-Rwb">
+                    <rect key="frame" x="37" y="335" width="74" height="21"/>
+                    <color key="backgroundColor" red="0.090743042528629303" green="0.47821146249771118" blue="0.2586255669593811" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="26x-eh-Kbh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0kR-WL-G2y" firstAttribute="bottom" secondItem="C8d-za-o21" secondAttribute="bottom" id="0LL-s5-SRL"/>
+                <constraint firstItem="C8d-za-o21" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="37" id="7dX-Xj-2pY"/>
+                <constraint firstItem="kW3-rO-4G9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="290" id="9Jl-4o-UV8"/>
+                <constraint firstItem="kW3-rO-4G9" firstAttribute="bottom" secondItem="0kR-WL-G2y" secondAttribute="bottom" id="9j0-SU-UpK"/>
+                <constraint firstItem="kW3-rO-4G9" firstAttribute="leading" secondItem="0kR-WL-G2y" secondAttribute="trailing" constant="14" id="PvE-59-4Dg"/>
+                <constraint firstItem="0kR-WL-G2y" firstAttribute="centerY" secondItem="C8d-za-o21" secondAttribute="centerY" id="Pwa-tw-efh"/>
+                <constraint firstItem="dG3-BM-Rwb" firstAttribute="top" secondItem="C8d-za-o21" secondAttribute="bottom" constant="24" id="QqX-iC-aGM"/>
+                <constraint firstItem="kW3-rO-4G9" firstAttribute="centerY" secondItem="0kR-WL-G2y" secondAttribute="centerY" id="SqS-PO-KaW"/>
+                <constraint firstItem="C8d-za-o21" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="290" id="Tjb-5G-FRy"/>
+                <constraint firstItem="dG3-BM-Rwb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="37" id="W4e-Nh-yHX"/>
+                <constraint firstItem="0kR-WL-G2y" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="cnq-Ic-edL"/>
+                <constraint firstItem="0kR-WL-G2y" firstAttribute="leading" secondItem="C8d-za-o21" secondAttribute="trailing" constant="11" id="eYb-Vw-GRZ"/>
+                <constraint firstItem="0kR-WL-G2y" firstAttribute="top" secondItem="C8d-za-o21" secondAttribute="top" id="k0y-Ye-eL5"/>
+                <constraint firstItem="kW3-rO-4G9" firstAttribute="top" secondItem="0kR-WL-G2y" secondAttribute="top" id="lmU-LD-WbZ"/>
+                <constraint firstItem="0kR-WL-G2y" firstAttribute="leading" relation="lessThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="155" id="q6P-ca-6Rt"/>
+                <constraint firstItem="kW3-rO-4G9" firstAttribute="centerX" relation="greaterThanOrEqual" secondItem="0kR-WL-G2y" secondAttribute="centerX" id="wWJ-yv-gig"/>
+                <constraint firstItem="0kR-WL-G2y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="290" id="wsR-zY-sOS"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
